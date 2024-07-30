@@ -17,7 +17,7 @@ public class RepositoryController {
     }
 
     @Operation(summary = "Get repositories, which are not forks from given user")
-    @GetMapping("/{username}/repositories")
+    @GetMapping("users/{username}/repositories")
     public RepositoriesResponse getRepositories(
             @PathVariable String username) {
 
