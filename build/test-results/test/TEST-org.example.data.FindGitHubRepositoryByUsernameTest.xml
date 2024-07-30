@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.data.FindGitHubRepositoryByUsernameTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-30T12:31:52" hostname="marcins-mbp.home" time="0.139">
+  <properties/>
+  <testcase name="shouldReturnRepositories()" classname="org.example.data.FindGitHubRepositoryByUsernameTest" time="0.126"/>
+  <testcase name="shouldReturnBranches()" classname="org.example.data.FindGitHubRepositoryByUsernameTest" time="0.01"/>
+  <system-out><![CDATA[14:31:52.278 [Test worker] INFO org.example.data.FindGitHubRepositoryByUsername -- Fetching repositories for user: testUsername
+14:31:52.337 [Test worker] INFO org.example.data.FindGitHubRepositoryByUsername -- Fetching branches for repository: repo1
+14:31:52.341 [Test worker] INFO org.example.data.FindGitHubRepositoryByUsername -- Extracted 2 branches
+14:31:52.341 [Test worker] INFO org.example.data.FindGitHubRepositoryByUsername -- Extracted 1 repositories
+14:31:52.369 [Test worker] INFO org.example.data.FindGitHubRepositoryByUsername -- Fetching branches for repository: testRepository
+14:31:52.371 [Test worker] INFO org.example.data.FindGitHubRepositoryByUsername -- Extracted 2 branches
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/olafornal/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.4/3bf5ac1104554908cc623e40e58a00be37c35f36/byte-buddy-agent-1.14.4.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
